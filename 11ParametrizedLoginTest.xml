@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTest">
+    <test name="PositiveLoginTest">
+        <parameter name="username" value="student" />
+        <parameter name="password" value="Password123" />
+        <classes>
+            <class name="SDA.D16homework.task02" />
+        </classes>
+    </test>
+</suite>
