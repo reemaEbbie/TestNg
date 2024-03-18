@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelExecutionSuite" parallel="classes" thread-count="3">
+    <test name="ParallelExecutionTest">
+        <classes>
+            <class name="SDA.tests.day15.C04DependsOnMethods"/>
+            <class name="SDA.D15homework.D15HW01"/>
+            <class name="SDA.D15homework.D15HW02"/>
+        </classes>
+    </test>
+</suite>
